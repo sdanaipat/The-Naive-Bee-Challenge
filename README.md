@@ -1,6 +1,6 @@
 # The Metis Challenge: Naive Bees Classifier
 
-This notebook implements one of a solution to the Naive Bees Classifier challenge by hosted by [drivendata.org](http://www.drivendata.org/competitions/8/).
+This notebook implements one of a solution to the Naive Bees Classifier challenge hosted by [drivendata.org](http://www.drivendata.org/competitions/8/).
 
 ## Overview of the solution
 The idea is to fine-tune a pretrained VGG16 network with augmented data (flip and rotate) and a modified cross-entropy loss function (intended to fix the class imbalance problem).
